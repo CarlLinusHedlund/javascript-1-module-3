@@ -25,16 +25,16 @@
 
 
 
-// const weatherURL = "https://api.met.no/weatherapi/locationforecast/2.0/compact?lat=60.863072&lon=8.552333"
+const weatherURL = "https://api.met.no/weatherapi/locationforecast/2.0/compact?lat=60.863072&lon=8.552333"
 
-// const weatherContainer = document.querySelector(".weather-container")
+const weatherContainer = document.querySelector(".weather-container")
 
-// fetch(weatherURL)
-//     .then((Response) => Response.json())
-//     .then((yr) => {
-//         console.log(yr)
-//     })
-//     .catch((error) => {
-//         console.log(error)
-//     })
+fetch(weatherURL)
+    .then((Response) => Response.json())
+    .then((yr) => {
+        console.log(yr)
+    })
+    .catch((error) => {
+        console.log(error)
+    })
 

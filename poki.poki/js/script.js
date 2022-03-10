@@ -41,7 +41,9 @@ async function getPokemonsNames(){
         pokemonsContainer.innerHTML += `<li><span>sorry a error happened</span></li>`
     }
 };
-
-
 getPokemonsNames();
+
+
+
+
 
